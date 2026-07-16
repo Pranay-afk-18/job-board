@@ -1,0 +1,36 @@
+# Maven/Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+
+# Node/React
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.patch
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
