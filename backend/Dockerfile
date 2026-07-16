@@ -2,6 +2,8 @@
 FROM maven:3.8.5-openjdk-17 AS build
 WORKDIR /app
 COPY . .
+# ADD THIS LINE RIGHT HERE TO FIX THE PERMISSION ERROR
+RUN chmod +x ./mvnw
 RUN ./mvnw clean package -DskipTests
 
 # Step 2: Run the application
